@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Ответы на тесты — Поляков / Ерёмин</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app">
+    <aside class="drawer" id="drawer">
+      <div class="drawer-header">
+        <div>
+          <div class="drawer-title">Ответы на тесты</div>
+          <div class="drawer-sub">Поляков · Ерёмин</div>
+        </div>
+        <button class="icon-btn" id="closeDrawer" aria-label="Закрыть">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <nav class="drawer-nav">
+        <div class="nav-label">Школа</div>
+
+        <!-- ========== Б+У ========== -->
+        <div class="accordion">
+          <button class="accordion-btn" data-acc="bu">
+            <span>Учебник 10-11 (Б+У)</span>
+            <svg class="acc-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="accordion-panel" id="acc-bu">
+
+            <div class="accordion nested">
+              <button class="accordion-btn nested-btn" data-acc="bu11">
+                <span>Онлайн-тесты для 11 класса</span>
+                <svg class="acc-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+              <div class="accordion-panel" id="acc-bu11">
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="bu11-ch1">
+                    <span>Глава 1. Информация и инф. процессы</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="bu11-0">0. Техника безопасности</a>
+                    <a href="#" class="nav-link" data-test="bu11-1">1. Количество информации (ЕГЭ)</a>
+                    <a href="#" class="nav-link" data-test="bu11-2">2. Информация и вероятность</a>
+                    <a href="#" class="nav-link" data-test="bu11-3">3. Передача информации (ЕГЭ)</a>
+                    <a href="#" class="nav-link" data-test="bu11-4">4. Сжатие данных</a>
+                    <a href="#" class="nav-link" data-test="bu11-5">5. Системы. Информация и управление</a>
+                  </div>
+                </div>
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="bu11-ch2">
+                    <span>Глава 2. Моделирование</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="bu11-6">6. Диаграммы (ЕГЭ)</a>
+                  </div>
+                </div>
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="bu11-ch3">
+                    <span>Глава 3. Базы данных</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="bu11-7">7. Основные понятия баз данных</a>
+                    <a href="#" class="nav-link" data-test="bu11-8">8. Многотабличные БД (ЕГЭ)</a>
+                  </div>
+                </div>
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="bu11-ch4">
+                    <span>Глава 4. Создание веб-сайтов</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="bu11-9">9. Веб-сайты и веб-страницы</a>
+                    <a href="#" class="nav-link" data-test="bu11-10">10. Каскадные таблицы стилей</a>
+                  </div>
+                </div>
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="bu11-ch5">
+                    <span>Глава 5. Элементы теории алгоритмов</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="bu11-11p">11. Паскаль: сложность вычислений</a>
+                    <a href="#" class="nav-link" data-test="bu11-11cpp">11. C++: сложность вычислений</a>
+                    <a href="#" class="nav-link" data-test="bu11-11py">11. Python: сложность вычислений</a>
+                  </div>
+                </div>
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="bu11-ch6">
+                    <span>Глава 6. Алгоритмизация и программирование</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="bu11-12">12. Деревья</a>
+                    <a href="#" class="nav-link" data-test="bu11-13">13. Графы: кол-во путей (ЕГЭ)</a>
+                    <a href="#" class="nav-link" data-test="bu11-14">14. Динамическое программирование (ЕГЭ)</a>
+                  </div>
+                </div>
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="bu11-ch7">
+                    <span>Глава 7. ООП</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="bu11-15p">15. Паскаль: ООП</a>
+                    <a href="#" class="nav-link" data-test="bu11-15cpp">15. C++: ООП</a>
+                    <a href="#" class="nav-link" data-test="bu11-15py">15. Python: ООП</a>
+                  </div>
+                </div>
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="bu11-ch8">
+                    <span>Глава 8. Обработка изображений</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="bu11-16">16. Кодирование изображений (ЕГЭ)</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="accordion nested">
+              <button class="accordion-btn nested-btn" data-acc="bu-prakt">
+                <span>Практикум</span>
+                <svg class="acc-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+              <div class="accordion-panel">
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="bu-pr">
+                    <span>Практические работы</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="bu-pr-1">Гл.1 · RLE, сжатие, архивы</a>
+                    <a href="#" class="nav-link" data-test="bu-pr-2">Гл.2 · Моделирование, ИИ</a>
+                  </div>
+                </div>
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="bu-sam">
+                    <span>Самостоятельные работы</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="bu-sam-1">№1. Помехоустойчивые коды</a>
+                    <a href="#" class="nav-link" data-test="bu-sam-2">№2. Игровые модели</a>
+                    <a href="#" class="nav-link" data-test="bu-sam-3">№3. Проектирование БД</a>
+                  </div>
+                </div>
+                <a class="nav-link" href="otvety-praktikum-bu11.txt" download>⬇ Ответы СР (TXT)</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ========== У ========== -->
+        <div class="accordion">
+          <button class="accordion-btn" data-acc="u">
+            <span>Учебник 10-11 (У)</span>
+            <svg class="acc-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="accordion-panel" id="acc-u">
+
+            <div class="accordion nested">
+              <button class="accordion-btn nested-btn" data-acc="u11">
+                <span>Онлайн-тесты для 11 класса</span>
+                <svg class="acc-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+              <div class="accordion-panel">
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="u11-ch1">
+                    <span>Глава 1. Информация и инф. процессы</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="u11-1">1. Техника безопасности</a>
+                    <a href="#" class="nav-link" data-test="u11-2">2. Количество информации</a>
+                    <a href="#" class="nav-link" data-test="u11-3">3. Информация и вероятность</a>
+                    <a href="#" class="nav-link" data-test="u11-4">4. Передача информации</a>
+                    <a href="#" class="nav-link" data-test="u11-5">5. Кодирование и декодирование</a>
+                    <a href="#" class="nav-link" data-test="u11-6">6. Сжатие данных</a>
+                    <a href="#" class="nav-link" data-test="u11-7">7. Информация и управление</a>
+                  </div>
+                </div>
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="u11-ch2">
+                    <span>Глава 2. Моделирование</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="u11-8">8. Анализ моделей</a>
+                    <a href="#" class="nav-link" data-test="u11-9">9. Задачи на графы</a>
+                    <a href="#" class="nav-link" data-test="u11-10">10. Моделирование</a>
+                  </div>
+                </div>
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="u11-ch3">
+                    <span>Глава 3. Базы данных</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="u11-11">11. Основные понятия баз данных</a>
+                  </div>
+                </div>
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="u11-ch4">
+                    <span>Глава 4. Создание веб-сайтов</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="u11-12">12. Веб-сайты и веб-страницы</a>
+                    <a href="#" class="nav-link" data-test="u11-13">13. Каскадные таблицы стилей</a>
+                  </div>
+                </div>
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="u11-ch5">
+                    <span>Глава 5. Элементы теории алгоритмов</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="u11-14">14. Сложность вычислений</a>
+                  </div>
+                </div>
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="u11-ch6">
+                    <span>Глава 6. Алгоритмизация и программирование</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="u11-15">15. Деревья</a>
+                    <a href="#" class="nav-link" data-test="u11-16">16. Графы</a>
+                    <a href="#" class="nav-link" data-test="u11-17">17. Динамическое программирование</a>
+                  </div>
+                </div>
+
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="u11-ch8">
+                    <span>Глава 8. Комп. графика и анимация</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="u11-18">18. Растровая графика</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="accordion nested">
+              <button class="accordion-btn nested-btn" data-acc="u-prakt">
+                <span>Практикум</span>
+                <svg class="acc-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+              <div class="accordion-panel">
+                <a href="#" class="nav-link" data-test="u-prakt-pr">Практические работы</a>
+                <div class="accordion nested">
+                  <button class="accordion-btn nested-btn chapter" data-acc="u-sam">
+                    <span>Самостоятельные работы</span>
+                    <svg class="acc-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                  </button>
+                  <div class="accordion-panel">
+                    <a href="#" class="nav-link" data-test="u-sam-1">№1. Помехоустойчивые коды</a>
+                    <a href="#" class="nav-link" data-test="u-sam-3">№2. Проектирование БД</a>
+                  </div>
+                </div>
+                <a class="nav-link" href="answers11.pdf" download>⬇ Ответы к задачам из учебника 11 класса (PDF)</a>
+                <a class="nav-link" href="otvety-praktikum-bu11.txt" download>⬇ Ответы СР (TXT)</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </nav>
+    </aside>
+
+    <div class="backdrop" id="backdrop"></div>
+
+    <div class="right-col">
+      <header class="topbar">
+        <button class="icon-btn" id="menuBtn" aria-label="Меню">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+        <h1 class="topbar-title" id="pageTitle">Ответы на тесты</h1>
+        <button class="icon-btn" id="settingsBtn" aria-label="Настройки">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+          </svg>
+        </button>
+      </header>
+      <main class="main"><div class="content" id="content"></div></main>
+    </div>
+
+    <div class="modal" id="settingsModal">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3>Настройки</h3>
+          <button class="icon-btn" id="closeSettings" aria-label="Закрыть">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="setting-row">
+            <span class="setting-label">Тема</span>
+            <div class="theme-pills">
+              <button class="theme-pill" data-theme="light">☀️ Светлая</button>
+              <button class="theme-pill" data-theme="dark">🌙 Тёмная</button>
+              <button class="theme-pill active" data-theme="auto">💻 Авто</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
